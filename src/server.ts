@@ -16,13 +16,13 @@ const start  = async () => {
     })
     app.use((req,res) => nextHandler(req,res))
 
-    nextApp.prepare().then(()=> {
-        payload.logger.info(`Next.Js started`)
+    // nextApp.prepare().then(()=> {
+    //     // payload.logger.info(`Next.Js started`)
     
-        app.listen(PORT, async() => {
-            payload.logger.info(`Next.js APP URL ${process.env.NEXT_PUBLIC_SERVER_URL}`)
-        })
-    })
+    //     app.listen(PORT, async() => {
+    //         // payload.logger.info(`Next.js APP URL ${process.env.NEXT_PUBLIC_SERVER_URL}`)
+    //     })
+    // })
 }
 
 start();
