@@ -39,6 +39,7 @@ const Page = () => {
                                     })} placeholder="password"></Input>
                                 </div>
 
+                                {/* <Button>Sign Up</Button> */}
                                 <Button>Sign Up</Button>
                             </div>
                         </form>
